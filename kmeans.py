@@ -4,9 +4,6 @@ import numpy as np
 import copy
 import sys
 
-# IMPORTANT: DON'T CHANGE OR REMOVE THIS LINE
-#            SO THAT YOUR RESULTS CAN BE VISUALLY SIMILAR
-#            TO ONES GIVEN IN HOMEWORK FILES
 random.seed(5710414)
 
 def calcEuclidian(p1, p2):
