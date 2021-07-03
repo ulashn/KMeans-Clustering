@@ -122,9 +122,7 @@ class KMeans:
             print("Epsilon boundary reached! Halting...")
         else:
             print("Max iterations reached! Halting...")
-        # TODO: Implement this function
-        # Find clussters and cluster centers
-        # Return nothing, but make sure that self.clusters and self.cluster_centers are filled
+        
 
     def predict(self, instance):
         minIndex = 0
@@ -146,5 +144,3 @@ class KMeans:
                     continue
         
         return minIndex
-        # TODO: Implement this function
-        # Return best cluster index for the given instance
